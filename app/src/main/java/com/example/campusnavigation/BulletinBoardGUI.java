@@ -163,7 +163,7 @@ public class BulletinBoardGUI extends AppCompatActivity implements DownloadFile.
                 + "=" + URLEncoder.encode(input, "UTF-8");
 
         //set the url to the php file in the student account, make the connection
-        url = new URL("https://medusa.mcs.uvawise.edu/~jwe3nv/search.php");
+        url = new URL("https://medusa.mcs.uvawise.edu/~dwj4k/jwe3nv_public_html/search.php");
         urlConnection = (HttpsURLConnection) url.openConnection();
         Log.d("SUCCESS", "Made connection. totalInput is: " + input);
 
