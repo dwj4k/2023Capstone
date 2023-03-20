@@ -16,12 +16,12 @@ public class WorkoutRoute extends AppCompatActivity {
         //setting title of page
         setTitle("Route View");
 
-        //getting information from precious activity
+        //getting information from previous activity
         Intent i = getIntent();
 
-        /*//testing to pass things between activities
+        /*testing to pass things between activities
         String Verification = i.getStringExtra("Validation");
-        //casting information from above into textfield for testing.
+        casting information from above into textfield for testing.
         ((TextView)findViewById(R.id.textView4)).setText(Verification);
          */
         String DistanceAmount = i.getStringExtra("Distance");
@@ -33,5 +33,4 @@ public class WorkoutRoute extends AppCompatActivity {
         String StairAmount = i.getStringExtra("Flights_of_Stairs");
         ((TextView)findViewById(R.id.textView2)).setText(StairAmount);
     }
-
 }

@@ -25,7 +25,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class ResetPasswordActivity extends BasicLoginFunctionality {
 
-    private final String LINK_RESET_PASSWORD = "https://medusa.mcs.uvawise.edu/~jdl8y/generateConfirmationCode.php";
+    private final String LINK_RESET_PASSWORD = "https://medusa.mcs.uvawise.edu/~dwj4k/generateConfirmationCode.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

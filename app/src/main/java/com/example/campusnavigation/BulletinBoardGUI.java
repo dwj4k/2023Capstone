@@ -82,7 +82,7 @@ public class BulletinBoardGUI extends AppCompatActivity implements DownloadFile.
 
         if (urlList.isEmpty()){
             Log.d("Display", "The url list is empty, there are no events");
-            remotePDFViewPager = new RemotePDFViewPager(BulletinBoardGUI.this, "https://medusa.mcs.uvawise.edu/~jwe3nv/events/empty.pdf", BulletinBoardGUI.this);
+            remotePDFViewPager = new RemotePDFViewPager(BulletinBoardGUI.this, "https://medusa.mcs.uvawise.edu/~dwj4k/events/empty.pdf", BulletinBoardGUI.this);
             nextPage.setVisibility(View.INVISIBLE);
             prevPage.setVisibility(View.INVISIBLE);
             flipButton.setVisibility(View.INVISIBLE);

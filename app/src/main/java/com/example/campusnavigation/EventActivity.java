@@ -137,7 +137,7 @@ public class EventActivity extends AppCompatActivity implements AdapterView.OnIt
                 recurrence = text2;
 
 
-                serverPath = "https://medusa.mcs.uvawise.edu/~jwe3nv/events/" + FILE_NAME;
+                serverPath = "https://medusa.mcs.uvawise.edu/~dwj4k/events/" + FILE_NAME;
 
                 //https://androidexample.com/How_To_Make_HTTP_POST_Request_To_Server_-_Android_Example/index.php?view=article_discription&aid=64&aaid=89
                 //https://stackoverflow.com/questions/7537377/how-to-include-a-php-variable-inside-a-mysql-statement
@@ -184,7 +184,7 @@ public class EventActivity extends AppCompatActivity implements AdapterView.OnIt
                                 + "=" + URLEncoder.encode(FILE_NAME, "UTF-8");
 
                         //opening connection to php file
-                        url = new URL("https://medusa.mcs.uvawise.edu/~jwe3nv/connect.php");
+                        url = new URL("https://medusa.mcs.uvawise.edu/~dwj4k/connect.php");
                         urlConnection = (HttpsURLConnection) url.openConnection();
                         Log.d("SUCCESS", "Made connection. totalInput is: " + totalInput);
 
@@ -472,7 +472,7 @@ public class EventActivity extends AppCompatActivity implements AdapterView.OnIt
 
             if (sourceFile.isFile()) {//If the file is a file, upload it
                 try {//try to upload
-                    String upLoadServerUri = "https://medusa.mcs.uvawise.edu/~jwe3nv/connect2.php";
+                    String upLoadServerUri = "https://medusa.mcs.uvawise.edu/~dwj4k/connect2.php";
 
                     // open a URL connection to the Servlet
                     FileInputStream fileInputStream = new FileInputStream(

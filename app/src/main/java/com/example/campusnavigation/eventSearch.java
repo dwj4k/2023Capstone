@@ -29,11 +29,12 @@ public class eventSearch{//This function will be used to pull data for the bulle
     }
     public void eSearch() throws MalformedURLException {
         //opening connection to php file
-        url = new URL("https://medusa.mcs.uvawise.edu/~jwe3nv/connect.php");
+        url = new URL("https://medusa.mcs.uvawise.edu/~dwj4k/connect.php");
 
         try {
             urlConnection = (HttpsURLConnection) url.openConnection();
-        } catch (IOException ioException) {
+        }
+        catch (IOException ioException) {
             ioException.printStackTrace();
         }
         Log.d("SUCCESS", "Made connection. totalInput is: " + totalInput);

@@ -25,7 +25,7 @@ import java.util.concurrent.FutureTask;
 import javax.net.ssl.HttpsURLConnection;
 
 public class LoginActivity extends BasicLoginFunctionality{
-    private final String LOGIN_LINK = "https://medusa.mcs.uvawise.edu/~jdl8y/login.php"; //link for the php file used to login a user
+    private final String LOGIN_LINK = "https://medusa.mcs.uvawise.edu/~dwj4k/login.php"; //link for the php file used to login a user
 
     @Override
     protected void onCreate(Bundle savedInstanceState){

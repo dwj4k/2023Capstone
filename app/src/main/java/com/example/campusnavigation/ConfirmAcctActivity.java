@@ -25,7 +25,7 @@ import java.util.concurrent.FutureTask;
 import javax.net.ssl.HttpsURLConnection;
 
 public class ConfirmAcctActivity extends BasicLoginFunctionality {
-    private final String CONFIRM_LINK = "https://medusa.mcs.uvawise.edu/~jdl8y/confirmAccount.php";
+    private final String CONFIRM_LINK = "https://medusa.mcs.uvawise.edu/~dwj4k/confirmAccount.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

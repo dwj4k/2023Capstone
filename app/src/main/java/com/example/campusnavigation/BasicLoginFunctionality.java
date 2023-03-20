@@ -19,7 +19,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 public abstract class BasicLoginFunctionality extends AppCompatActivity {
 
-    private final String GET_SALT_LINK = "https://medusa.mcs.uvawise.edu/~jdl8y/getSalt.php"; //link for the php file used to retrieve a user's salt
+    private final String GET_SALT_LINK = "https://medusa.mcs.uvawise.edu/~dwj4k/getSalt.php"; //link for the php file used to retrieve a user's salt
     final int MAX_PASSWORD_LENGTH = 32; //maximum allowed password length
     final int MIN_PASSWORD_LENGTH = 12; //minimum allowed password length
     final int MAX_EMAIL_LENGTH = 32; //maximum allowed length for an input email

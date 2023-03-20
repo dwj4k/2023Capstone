@@ -21,7 +21,7 @@ import javax.net.ssl.HttpsURLConnection;
 import java.net.URL;
 
 public class AccountCreation extends BasicLoginFunctionality {
-    private final String ACCT_CREATION_LINK = "https://medusa.mcs.uvawise.edu/~jdl8y/accountCreation.php";
+    private final String ACCT_CREATION_LINK = "https://medusa.mcs.uvawise.edu/~dwj4k/accountCreation.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

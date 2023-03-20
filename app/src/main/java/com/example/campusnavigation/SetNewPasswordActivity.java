@@ -23,8 +23,8 @@ import java.util.concurrent.FutureTask;
 import javax.net.ssl.HttpsURLConnection;
 
 public class SetNewPasswordActivity extends BasicLoginFunctionality {
-    private final String CHECK_CODE_LINK = "https://medusa.mcs.uvawise.edu/~jdl8y/checkCodeAgainstEmail.php";
-    private final String SET_NEW_PASSWORD_LINK = "https://medusa.mcs.uvawise.edu/~jdl8y/setNewPassword.php";
+    private final String CHECK_CODE_LINK = "https://medusa.mcs.uvawise.edu/~dwj4k/checkCodeAgainstEmail.php";
+    private final String SET_NEW_PASSWORD_LINK = "https://medusa.mcs.uvawise.edu/~dwj4k/setNewPassword.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
