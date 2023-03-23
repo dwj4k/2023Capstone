@@ -30,7 +30,7 @@ import es.voghdev.pdfviewpager.library.util.FileUtil;
 //Shoutout to a lovely Doha Kash who provided me with the article that actually implemented a good embedded PDF Viewer
 //https://levelup.gitconnected.com/open-pdf-files-in-android-without-webviews-or-intents-3cc960752cca
 public class BulletinBoardGUI extends AppCompatActivity implements DownloadFile.Listener{
-
+//Diamonta
     private RemotePDFViewPager remotePDFViewPager;//used for pdf display
     private PDFPagerAdapter pdfPagerAdapter;//used for pdf display
     private static List<String> urlList = new ArrayList<>();//list for urls
