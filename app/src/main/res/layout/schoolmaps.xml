@@ -31,6 +31,7 @@
         android:id="@+id/textView6"
         android:layout_width="405dp"
         android:layout_height="105dp"
+        android:accessibilityLiveRegion="assertive"
         android:text="Maps"
         android:textAlignment="center"
         android:textSize="60sp"
